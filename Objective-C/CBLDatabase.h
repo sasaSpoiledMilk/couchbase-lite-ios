@@ -89,13 +89,13 @@ typedef struct {
 @interface CBLDatabase : NSObject
 
 /** The database's name. */
-@property (readonly, nonatomic) NSString* name;
+@property (atomic, readonly) NSString* name;
 
 /** The database's path. If the database is closed or deleted, nil value will be returned. */
-@property (readonly, nonatomic, nullable) NSString* path;
+@property (atomic, readonly, nullable) NSString* path;
 
 /** The number of documents in the database. */
-@property (readonly, nonatomic) uint64_t count;
+@property (atomic, readonly) uint64_t count;
 
 /** 
  The database's configuration. If the configuration is not specify when initializing
