@@ -449,6 +449,7 @@
 		93CD02DF1EA037B200AFB3FA /* CBLReadOnlyDictionary.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93CD02DD1EA037B200AFB3FA /* CBLReadOnlyDictionary.mm */; };
 		93CD02E61EA0382D00AFB3FA /* CBLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CD02E41EA0382C00AFB3FA /* CBLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93CD02E71EA0382D00AFB3FA /* CBLDictionary.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93CD02E51EA0382D00AFB3FA /* CBLDictionary.mm */; };
+		93D590B01F32B98600A93556 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D590AF1F32B98600A93556 /* Index.swift */; };
 		93DB7FEC1ED8E1C000C4F845 /* CBLReplicatorConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DB7FEA1ED8E1C000C4F845 /* CBLReplicatorConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93DB7FED1ED8E1C000C4F845 /* CBLReplicatorConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DB7FEA1ED8E1C000C4F845 /* CBLReplicatorConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93DB7FEE1ED8E1C000C4F845 /* CBLReplicatorConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DB7FEB1ED8E1C000C4F845 /* CBLReplicatorConfiguration.m */; };
@@ -948,6 +949,7 @@
 		93CD02DD1EA037B200AFB3FA /* CBLReadOnlyDictionary.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CBLReadOnlyDictionary.mm; sourceTree = "<group>"; };
 		93CD02E41EA0382C00AFB3FA /* CBLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLDictionary.h; sourceTree = "<group>"; };
 		93CD02E51EA0382D00AFB3FA /* CBLDictionary.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CBLDictionary.mm; sourceTree = "<group>"; };
+		93D590AF1F32B98600A93556 /* Index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
 		93DB7FEA1ED8E1C000C4F845 /* CBLReplicatorConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLReplicatorConfiguration.h; sourceTree = "<group>"; };
 		93DB7FEB1ED8E1C000C4F845 /* CBLReplicatorConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLReplicatorConfiguration.m; sourceTree = "<group>"; };
 		93DB80001ED8FCE200C4F845 /* ReplicatorConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplicatorConfiguration.swift; sourceTree = "<group>"; };
@@ -1387,6 +1389,7 @@
 				9380D2721F0DBD79007DD84A /* SelectResult.swift */,
 				938CDF1B1E807F23002EE790 /* Where.swift */,
 				938CDF261E807F8F002EE790 /* WhereRouter.swift */,
+				93D590AF1F32B98600A93556 /* Index.swift */,
 			);
 			name = Query;
 			sourceTree = "<group>";
@@ -2308,6 +2311,7 @@
 				275F92A61E4D3A91007FD5A2 /* Document.swift in Sources */,
 				937F02A01EFC7D1A00060D64 /* LiveQueryChange.swift in Sources */,
 				937F01DE1EFB1A2900060D64 /* CBLSessionAuthenticator.m in Sources */,
+				93D590B01F32B98600A93556 /* Index.swift in Sources */,
 				93B503681E64B088002C4680 /* CBLSharedKeys.mm in Sources */,
 				275F928C1E4D3119007FD5A2 /* Database.swift in Sources */,
 				938CDF1A1E807F14002EE790 /* From.swift in Sources */,
